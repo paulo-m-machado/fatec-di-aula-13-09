@@ -1,0 +1,41 @@
+*{
+    /** o asteristico aplica CSS em tudo,
+    pode ser utilizado para "resetar" o css
+    padrão de um navegador **/
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* deifne o tamanho do elemento */
+    line-height: 1.5;
+    /*font-family: Arial, Helvetica, sans-serif;*/
+}
+
+p{
+    font-size: 14px;
+    color: #242424;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    color: #0000ff; /* o !important sobrepoe esta parte do codigo em relação aos que funcionariam neste lugar, recomendado NUNCA utlilizar, se é necessario usar o !important algo deu errado */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.container{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.card{
+    border: 1px #cccccc solid;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tamanho-50{
+    width: 49%;
+    max-width: 49%;
+}
