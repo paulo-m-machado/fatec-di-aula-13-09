@@ -4,16 +4,16 @@
     
     as variaveis começam com -- para utilizar var(--nome)*/
 
-    --primary: #56949f;
-    --secondary: #907aa9;
+    --primary-color: #b4637a;
+    --secondary-color: #286983;
     --background-color: #faf4ed;
     --text-color: #575279;
     --red: #b4637a;
 }
 
 .dark-mode{
-    --primary: #9ccfd8;
-    --secondary: #c4a7e7;
+    --primary-color: #eb6f92;
+    --secondary-color: #31748f;
     --background-color: #191724;
     --text-color: #e0def4;
 }
