@@ -32,7 +32,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .card{
-    border: 1px #cccccc solid;
+    border: 1px var(--text-color) solid;
     padding: 15px;
     border-radius: 10px;
     margin: 10px auto;
@@ -63,4 +63,19 @@ footer {
 footer p, footer b { 
     color: var(--primary-color);
     background-color: var(--secondary-color);
+}
+
+button {
+    border: 3px solid;
+    border-color: var(--primary-color);
+    border-radius: 15px;
+    color: var(--background-color);
+    background: var(--secondary-color);
+    padding: 15px;
+}
+
+button:hover{
+    color: var(--background-color);
+    background: var(--primary-color);
+    border-color: var(--secondary-color);
 }
